@@ -10,7 +10,7 @@
 /* Global */
 * {
     /* #2 #font #faces */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -20,13 +20,7 @@ body {
     background-color: #F5F5F5;
 }
 
-
-button {
-    /* #2 #colourful #plusfive */
-    background-color: #CDDC39;
-    color: black;
-}
-
+/* all buttons uppercase */
 button, strong {
     text-transform: uppercase;
 }
@@ -42,31 +36,66 @@ h1 {
 h2 {
     /* #2 #colorful #channelandchat */
     background-color: white;
+    font-size: 16px;
 }
 
+li {
+    padding: 16px;
+    border-bottom: 1px solid #3F51B5;
+}
+li img{
+    vertical-align: middle;
+}
+.current {
+    color:#3F51B5;
+    border-left: 4px solid #3F51B5;
+}
 /* Tab bar */
 #tab-bar button{
     background-color: white;
-    text-justify: center;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
 }
 
+#tab-bar button img{
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+#tab-bar .selected{
+    color:#3F51B5;
+    border-bottom: 4px solid #3F51B5;
+}
 /* Messages */
-p {
-    /* #2 #colorful #channelandchat */
-    background-color: white;
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left:2.5%;
 }
 
-/* strong { */
-/*     /\* #2 #font #locations need an extra element, we'll use strong for w3w locations *\/ */
-/*     text-transform: uppercase; */
-/* } */
-
-h3 {
-    /* #2 #font #metadata is now medium */
+.message h3{
     font-size: medium;
 }
+.mine{
+    margin-left:17.5%;
+}
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
 
-em {
+.message button{
+    background-color: #CDDC39;
+    color: black;
+}
+.message em {
     /* #2 #font #remaining overrides the default italic appearance of em elements*/
     font-size: larger;
     font-style: normal;
