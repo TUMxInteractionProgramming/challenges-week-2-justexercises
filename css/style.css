@@ -1,0 +1,79 @@
+/* #2 #colorful #palette is:
+ * Background: #F5F5F5 (GREY 100)
+ * Primary Text: black
+ * Primary color: #3F51B5 (INDIGO)
+ * Primary color_text : white
+ * Accent color: #CDDC39 (LIME)
+ * Accent color_text: black
+ */
+
+/* Global */
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+button, strong {
+    text-transform: uppercase;
+}
+
+/* App bar */
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* Channels list */
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+/* Tab bar */
+#tab-bar button{
+    background-color: white;
+    text-justify: center;
+}
+
+/* Messages */
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+/* strong { */
+/*     /\* #2 #font #locations need an extra element, we'll use strong for w3w locations *\/ */
+/*     text-transform: uppercase; */
+/* } */
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+ul {
+    /* no bullets on channel list */
+    list-style-type: none;
+    background-color: white;
+}
