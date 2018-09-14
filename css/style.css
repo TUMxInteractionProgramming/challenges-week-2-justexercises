@@ -51,6 +51,11 @@ li img{
     border-left: 4px solid #3F51B5;
 }
 /* Tab bar */
+
+/* this is to keep buttons on line */
+#tab-bar{
+    white-space: nowrap;
+}
 #tab-bar button{
     background-color: white;
     text-align: center;
@@ -59,6 +64,7 @@ li img{
     width: 33%;
     height: 72px;
     padding: 16px;
+
 }
 
 #tab-bar button img{
